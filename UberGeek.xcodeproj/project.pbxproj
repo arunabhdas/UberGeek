@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4C964015859DCF00436CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4C963F15859DCF00436CAC /* UIKit.framework */; };
+		4B4C964215859DCF00436CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4C964115859DCF00436CAC /* Foundation.framework */; };
+		4B4C964415859DCF00436CAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4C964315859DCF00436CAC /* CoreGraphics.framework */; };
+		4B4C964A15859DCF00436CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C964815859DCF00436CAC /* InfoPlist.strings */; };
+		4B4C964C15859DCF00436CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C964B15859DCF00436CAC /* main.m */; };
+		4B4C965015859DCF00436CAC /* UberGeekAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C964F15859DCF00436CAC /* UberGeekAppDelegate.m */; };
+		4B4C965315859DCF00436CAC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C965115859DCF00436CAC /* MainStoryboard.storyboard */; };
+		4B4C965615859DCF00436CAC /* UberGeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C965515859DCF00436CAC /* UberGeekViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B4C963B15859DCF00436CAC /* UberGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4C963F15859DCF00436CAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B4C964115859DCF00436CAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B4C964315859DCF00436CAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B4C964715859DCF00436CAC /* UberGeek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UberGeek-Info.plist"; sourceTree = "<group>"; };
+		4B4C964915859DCF00436CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B4C964B15859DCF00436CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4C964D15859DCF00436CAC /* UberGeek-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UberGeek-Prefix.pch"; sourceTree = "<group>"; };
+		4B4C964E15859DCF00436CAC /* UberGeekAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UberGeekAppDelegate.h; sourceTree = "<group>"; };
+		4B4C964F15859DCF00436CAC /* UberGeekAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberGeekAppDelegate.m; sourceTree = "<group>"; };
+		4B4C965215859DCF00436CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4B4C965415859DCF00436CAC /* UberGeekViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UberGeekViewController.h; sourceTree = "<group>"; };
+		4B4C965515859DCF00436CAC /* UberGeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberGeekViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4C963815859DCF00436CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C964015859DCF00436CAC /* UIKit.framework in Frameworks */,
+				4B4C964215859DCF00436CAC /* Foundation.framework in Frameworks */,
+				4B4C964415859DCF00436CAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4C963015859DCF00436CAC = {
+			isa = PBXGroup;
+			children = (
+				4B4C964515859DCF00436CAC /* UberGeek */,
+				4B4C963E15859DCF00436CAC /* Frameworks */,
+				4B4C963C15859DCF00436CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4C963C15859DCF00436CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C963B15859DCF00436CAC /* UberGeek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B4C963E15859DCF00436CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C963F15859DCF00436CAC /* UIKit.framework */,
+				4B4C964115859DCF00436CAC /* Foundation.framework */,
+				4B4C964315859DCF00436CAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4C964515859DCF00436CAC /* UberGeek */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C964E15859DCF00436CAC /* UberGeekAppDelegate.h */,
+				4B4C964F15859DCF00436CAC /* UberGeekAppDelegate.m */,
+				4B4C965115859DCF00436CAC /* MainStoryboard.storyboard */,
+				4B4C965415859DCF00436CAC /* UberGeekViewController.h */,
+				4B4C965515859DCF00436CAC /* UberGeekViewController.m */,
+				4B4C964615859DCF00436CAC /* Supporting Files */,
+			);
+			path = UberGeek;
+			sourceTree = "<group>";
+		};
+		4B4C964615859DCF00436CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C964715859DCF00436CAC /* UberGeek-Info.plist */,
+				4B4C964815859DCF00436CAC /* InfoPlist.strings */,
+				4B4C964B15859DCF00436CAC /* main.m */,
+				4B4C964D15859DCF00436CAC /* UberGeek-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4C963A15859DCF00436CAC /* UberGeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4C965915859DCF00436CAC /* Build configuration list for PBXNativeTarget "UberGeek" */;
+			buildPhases = (
+				4B4C963715859DCF00436CAC /* Sources */,
+				4B4C963815859DCF00436CAC /* Frameworks */,
+				4B4C963915859DCF00436CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberGeek;
+			productName = UberGeek;
+			productReference = 4B4C963B15859DCF00436CAC /* UberGeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4C963215859DCF00436CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4B4C963515859DCF00436CAC /* Build configuration list for PBXProject "UberGeek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B4C963015859DCF00436CAC;
+			productRefGroup = 4B4C963C15859DCF00436CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4C963A15859DCF00436CAC /* UberGeek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4C963915859DCF00436CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C964A15859DCF00436CAC /* InfoPlist.strings in Resources */,
+				4B4C965315859DCF00436CAC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4C963715859DCF00436CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C964C15859DCF00436CAC /* main.m in Sources */,
+				4B4C965015859DCF00436CAC /* UberGeekAppDelegate.m in Sources */,
+				4B4C965615859DCF00436CAC /* UberGeekViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B4C964815859DCF00436CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4C964915859DCF00436CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B4C965115859DCF00436CAC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4C965215859DCF00436CAC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B4C965715859DCF00436CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B4C965815859DCF00436CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4C965A15859DCF00436CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberGeek/UberGeek-Prefix.pch";
+				INFOPLIST_FILE = "UberGeek/UberGeek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B4C965B15859DCF00436CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberGeek/UberGeek-Prefix.pch";
+				INFOPLIST_FILE = "UberGeek/UberGeek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4C963515859DCF00436CAC /* Build configuration list for PBXProject "UberGeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4C965715859DCF00436CAC /* Debug */,
+				4B4C965815859DCF00436CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4C965915859DCF00436CAC /* Build configuration list for PBXNativeTarget "UberGeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4C965A15859DCF00436CAC /* Debug */,
+				4B4C965B15859DCF00436CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B4C963215859DCF00436CAC /* Project object */;
+}
